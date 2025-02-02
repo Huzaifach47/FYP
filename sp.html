@@ -1,0 +1,1527 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./sp.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <div class="d-flex align-items-center">
+          <a class="navbar-brand" href="/hero.html"
+            ><img src="/CMlog.png" alt="logo" width="50px"
+          /></a>
+          <h4 class="text-light">The City Hospital</h4>
+        </div>
+        <div>
+          <nav class="navbar">
+            <a class="number">Helpline : +92 0000444488</a>
+            <a class="apointment" href="./index.html">Logout</a>
+          </nav>
+        </div>
+      </div>
+    </nav>
+    <div class="row d-flex justify-content-center w-100 my-5">
+      <div class="col-md-1 d-flex align-items-center justify-content-center">
+        <img src="./medical-team.png" width="100px" />
+      </div>
+      <div class="col-md-4 d-flex align-items-center justify-content-center">
+        <h1>Departments</h1>
+      </div>
+    </div>
+    <div class="row mb-5 mx-0 d-flex justify-content-center">
+      <div class="col-md-8">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Cardiology <strong class="ms-2">شعبہ امراض قلب </strong>
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body p-4">
+                <div class="accordion" id="accordionExampleS">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button
+                        class="accordion-button"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseOneS"
+                        aria-expanded="true"
+                        aria-controls="collapseOneS"
+                      >
+                        Doctor 1
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseOneS"
+                      class="accordion-collapse collapse"
+                      data-bs-parent="#accordionExampleS"
+                    >
+                      <div class="accordion-body">
+                        <p><strong>Timing</strong></p>
+                        <div
+                          class="d-flex justify-content-between align-item-center"
+                        >
+                          <p>Monday</p>
+                          <p>10:00 Am - 02:00 Pm</p>
+                          <button
+                            class="book-btn"
+                            onclick="location.href='./appointment.html'"
+                          >
+                            Book Now
+                          </button>
+                        </div>
+                        <div
+                          class="d-flex justify-content-between align-item-center"
+                          `
+                        >
+                          <p>Wednesday</p>
+                          <p>10:00 Am - 02:00 Pm</p>
+                          <button
+                            class="book-btn"
+                            onclick="location.href='./appointment.html'"
+                          >
+                            Book Now
+                          </button>
+                        </div>
+                        <div
+                          class="d-flex justify-content-between align-item-center"
+                        >
+                          <p>Friday</p>
+                          <p>10:00 Am - 04:00 Pm</p>
+                          <button
+                            class="book-btn"
+                            onclick="location.href='./appointment.html'"
+                          >
+                            Book Now
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwoS"
+                        aria-expanded="false"
+                        aria-controls="collapseTwoS"
+                      >
+                        Doctor 2
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseTwoS"
+                      class="accordion-collapse collapse"
+                      data-bs-parent="#accordionExampleS"
+                    >
+                      <div class="accordion-body">
+                        <p><strong>Timing</strong></p>
+                        <div
+                          class="d-flex justify-content-between align-item-center"
+                        >
+                          <p>Monday</p>
+                          <p>10:00 Am - 02:00 Pm</p>
+                          <button
+                            class="book-btn"
+                            onclick="location.href='./appointment.html'"
+                          >
+                            Book Now
+                          </button>
+                        </div>
+                        <div
+                          class="d-flex justify-content-between align-item-center"
+                        >
+                          <p>Wednesday</p>
+                          <p>10:00 Am - 02:00 Pm</p>
+                          <button
+                            class="book-btn"
+                            onclick="location.href='./appointment.html'"
+                          >
+                            Book Now
+                          </button>
+                        </div>
+                        <div
+                          class="d-flex justify-content-between align-item-center"
+                        >
+                          <p>Friday</p>
+                          <p>10:00 Am - 04:00 Pm</p>
+                          <button
+                            class="book-btn"
+                            onclick="location.href='./appointment.html'"
+                          >
+                            Book Now
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseThreeS"
+                        aria-expanded="false"
+                        aria-controls="collapseThreeS"
+                      >
+                        Doctor 3
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseThreeS"
+                      class="accordion-collapse collapse"
+                      data-bs-parent="#accordionExampleS"
+                    >
+                      <div class="accordion-body">
+                        <p><strong>Timing</strong></p>
+                        <div
+                          class="d-flex justify-content-between align-item-center"
+                        >
+                          <p>Monday</p>
+                          <p>10:00 Am - 02:00 Pm</p>
+                          <button
+                            class="book-btn"
+                            onclick="location.href='./appointment.html'"
+                          >
+                            Book Now
+                          </button>
+                        </div>
+                        <div
+                          class="d-flex justify-content-between align-item-center"
+                        >
+                          <p>Wednesday</p>
+                          <p>10:00 Am - 02:00 Pm</p>
+                          <button
+                            class="book-btn"
+                            onclick="location.href='./appointment.html'"
+                          >
+                            Book Now
+                          </button>
+                        </div>
+                        <div
+                          class="d-flex justify-content-between align-item-center"
+                        >
+                          <p>Friday</p>
+                          <p>10:00 Am - 04:00 Pm</p>
+                          <button
+                            class="book-btn"
+                            onclick="location.href='./appointment.html'"
+                          >
+                            Book Now
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                Dermatology <strong class="ms-2"> شعبہ امراض جلد</strong>
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body p-4">
+                <div class="accordion" id="accordionExampleS2">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button
+                        class="accordion-button"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseOneS1"
+                        aria-expanded="true"
+                        aria-controls="collapseOneS1"
+                      >
+                        Doctor 1
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseOneS1"
+                      class="accordion-collapse collapse"
+                      data-bs-parent="#accordionExampleS2"
+                    >
+                      <div class="accordion-body">
+                        <p><strong>Timing</strong></p>
+                        <div
+                          class="d-flex justify-content-between align-item-center"
+                        >
+                          <p>Monday</p>
+                          <p>10:00 Am - 02:00 Pm</p>
+                          <button
+                            class="book-btn"
+                            onclick="location.href='./appointment.html'"
+                          >
+                            Book Now
+                          </button>
+                        </div>
+                        <div
+                          class="d-flex justify-content-between align-item-center"
+                        >
+                          <p>Wednesday</p>
+                          <p>10:00 Am - 02:00 Pm</p>
+                          <button
+                            class="book-btn"
+                            onclick="location.href='./appointment.html'"
+                          >
+                            Book Now
+                          </button>
+                        </div>
+                        <div
+                          class="d-flex justify-content-between align-item-center"
+                        >
+                          <p>Friday</p>
+                          <p>10:00 Am - 04:00 Pm</p>
+                          <button
+                            class="book-btn"
+                            onclick="location.href='./appointment.html'"
+                          >
+                            Book Now
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwoS1"
+                        aria-expanded="false"
+                        aria-controls="collapseTwoS1"
+                      >
+                        Doctor 2
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseTwoS1"
+                      class="accordion-collapse collapse"
+                      data-bs-parent="#accordionExampleS2"
+                    >
+                      <div class="accordion-body">
+                        <p><strong>Timing</strong></p>
+                        <div
+                          class="d-flex justify-content-between align-item-center"
+                        >
+                          <p>Monday</p>
+                          <p>10:00 Am - 02:00 Pm</p>
+                          <button
+                            class="book-btn"
+                            onclick="location.href='./appointment.html'"
+                          >
+                            Book Now
+                          </button>
+                        </div>
+                        <div
+                          class="d-flex justify-content-between align-item-center"
+                        >
+                          <p>Wednesday</p>
+                          <p>10:00 Am - 02:00 Pm</p>
+                          <button
+                            class="book-btn"
+                            onclick="location.href='./appointment.html'"
+                          >
+                            Book Now
+                          </button>
+                        </div>
+                        <div
+                          class="d-flex justify-content-between align-item-center"
+                        >
+                          <p>Friday</p>
+                          <p>10:00 Am - 04:00 Pm</p>
+                          <button
+                            class="book-btn"
+                            onclick="location.href='./appointment.html'"
+                          >
+                            Book Now
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseThreeS1"
+                        aria-expanded="false"
+                        aria-controls="collapseThreeS1"
+                      >
+                        Doctor 3
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseThreeS1"
+                      class="accordion-collapse collapse"
+                      data-bs-parent="#accordionExampleS2"
+                    >
+                      <div class="accordion-body">
+                        <p><strong>Timing</strong></p>
+                        <div
+                          class="d-flex justify-content-between align-item-center"
+                        >
+                          <p>Monday</p>
+                          <p>10:00 Am - 02:00 Pm</p>
+                          <button
+                            class="book-btn"
+                            onclick="location.href='./appointment.html'"
+                          >
+                            Book Now
+                          </button>
+                        </div>
+                        <div
+                          class="d-flex justify-content-between align-item-center"
+                        >
+                          <p>Wednesday</p>
+                          <p>10:00 Am - 02:00 Pm</p>
+                          <button
+                            class="book-btn"
+                            onclick="location.href='./appointment.html'"
+                          >
+                            Book Now
+                          </button>
+                        </div>
+                        <div
+                          class="d-flex justify-content-between align-item-center"
+                        >
+                          <p>Friday</p>
+                          <p>10:00 Am - 04:00 Pm</p>
+                          <button
+                            class="book-btn"
+                            onclick="location.href='./appointment.html'"
+                          >
+                            Book Now
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseFourS1"
+                        aria-expanded="false"
+                        aria-controls="collapseFourS1"
+                      >
+                        Doctor 4
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseFourS1"
+                      class="accordion-collapse collapse"
+                      data-bs-parent="#accordionExampleS2"
+                    >
+                      <div class="accordion-body">
+                        <p><strong>Timing</strong></p>
+                        <div
+                          class="d-flex justify-content-between align-item-center"
+                        >
+                          <p>Monday</p>
+                          <p>10:00 Am - 02:00 Pm</p>
+                          <button
+                            class="book-btn"
+                            onclick="location.href='./appointment.html'"
+                          >
+                            Book Now
+                          </button>
+                        </div>
+                        <div
+                          class="d-flex justify-content-between align-item-center"
+                        >
+                          <p>Wednesday</p>
+                          <p>10:00 Am - 02:00 Pm</p>
+                          <button
+                            class="book-btn"
+                            onclick="location.href='./appointment.html'"
+                          >
+                            Book Now
+                          </button>
+                        </div>
+                        <div
+                          class="d-flex justify-content-between align-item-center"
+                        >
+                          <p>Friday</p>
+                          <p>10:00 Am - 04:00 Pm</p>
+                          <button
+                            class="book-btn"
+                            onclick="location.href='./appointment.html'"
+                          >
+                            Book Now
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                Gastroenterology <strong class="ms-2">شعبہ معدے </strong>
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body p-4">
+                <div class="accordion" id="accordionExampleS3">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button
+                        class="accordion-button"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseOneS12"
+                        aria-expanded="true"
+                        aria-controls="collapseOneS12"
+                      >
+                        Doctor 1
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseOneS12"
+                      class="accordion-collapse collapse"
+                      data-bs-parent="#accordionExampleS3"
+                    >
+                      <div class="accordion-body">
+                        <p><strong>Timing</strong></p>
+                        <div
+                          class="d-flex justify-content-between align-item-center"
+                        >
+                          <p>Monday</p>
+                          <p>10:00 Am - 02:00 Pm</p>
+                          <button
+                            class="book-btn"
+                            onclick="location.href='./appointment.html'"
+                          >
+                            Book Now
+                          </button>
+                        </div>
+                        <div
+                          class="d-flex justify-content-between align-item-center"
+                        >
+                          <p>Wednesday</p>
+                          <p>10:00 Am - 02:00 Pm</p>
+                          <button
+                            class="book-btn"
+                            onclick="location.href='./appointment.html'"
+                          >
+                            Book Now
+                          </button>
+                        </div>
+                        <div
+                          class="d-flex justify-content-between align-item-center"
+                        >
+                          <p>Friday</p>
+                          <p>10:00 Am - 04:00 Pm</p>
+                          <button
+                            class="book-btn"
+                            onclick="location.href='./appointment.html'"
+                          >
+                            Book Now
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwoS12"
+                        aria-expanded="false"
+                        aria-controls="collapseTwoS12"
+                      >
+                        Doctor 2
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseTwoS12"
+                      class="accordion-collapse collapse"
+                      data-bs-parent="#accordionExampleS3"
+                    >
+                      <div class="accordion-body">
+                        <p><strong>Timing</strong></p>
+                        <div
+                          class="d-flex justify-content-between align-item-center"
+                        >
+                          <p>Monday</p>
+                          <p>10:00 Am - 02:00 Pm</p>
+                          <button
+                            class="book-btn"
+                            onclick="location.href='./appointment.html'"
+                          >
+                            Book Now
+                          </button>
+                        </div>
+                        <div
+                          class="d-flex justify-content-between align-item-center"
+                        >
+                          <p>Wednesday</p>
+                          <p>10:00 Am - 02:00 Pm</p>
+                          <button
+                            class="book-btn"
+                            onclick="location.href='./appointment.html'"
+                          >
+                            Book Now
+                          </button>
+                        </div>
+                        <div
+                          class="d-flex justify-content-between align-item-center"
+                        >
+                          <p>Friday</p>
+                          <p>10:00 Am - 04:00 Pm</p>
+                          <button
+                            class="book-btn"
+                            onclick="location.href='./appointment.html'"
+                          >
+                            Book Now
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseThreeS12"
+                        aria-expanded="false"
+                        aria-controls="collapseThreeS12"
+                      >
+                        Doctor 3
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseThreeS12"
+                      class="accordion-collapse collapse"
+                      data-bs-parent="#accordionExampleS3"
+                    >
+                      <div class="accordion-body">
+                        <p><strong>Timing</strong></p>
+                        <div
+                          class="d-flex justify-content-between align-item-center"
+                        >
+                          <p>Monday</p>
+                          <p>10:00 Am - 02:00 Pm</p>
+                          <button
+                            class="book-btn"
+                            onclick="location.href='./appointment.html'"
+                          >
+                            Book Now
+                          </button>
+                        </div>
+                        <div
+                          class="d-flex justify-content-between align-item-center"
+                        >
+                          <p>Wednesday</p>
+                          <p>10:00 Am - 02:00 Pm</p>
+                          <button
+                            class="book-btn"
+                            onclick="location.href='./appointment.html'"
+                          >
+                            Book Now
+                          </button>
+                        </div>
+                        <div
+                          class="d-flex justify-content-between align-item-center"
+                        >
+                          <p>Friday</p>
+                          <p>10:00 Am - 04:00 Pm</p>
+                          <button
+                            class="book-btn"
+                            onclick="location.href='./appointment.html'"
+                          >
+                            Book Now
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseFourS12"
+                        aria-expanded="false"
+                        aria-controls="collapseFourS12"
+                      >
+                        Doctor 4
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseFourS12"
+                      class="accordion-collapse collapse"
+                      data-bs-parent="#accordionExampleS3"
+                    >
+                      <div class="accordion-body">
+                        <p><strong>Timing</strong></p>
+                        <div
+                          class="d-flex justify-content-between align-item-center"
+                        >
+                          <p>Monday</p>
+                          <p>10:00 Am - 02:00 Pm</p>
+                          <button
+                            class="book-btn"
+                            onclick="location.href='./appointment.html'"
+                          >
+                            Book Now
+                          </button>
+                        </div>
+                        <div
+                          class="d-flex justify-content-between align-item-center"
+                        >
+                          <p>Wednesday</p>
+                          <p>10:00 Am - 02:00 Pm</p>
+                          <button
+                            class="book-btn"
+                            onclick="location.href='./appointment.html'"
+                          >
+                            Book Now
+                          </button>
+                        </div>
+                        <div
+                          class="d-flex justify-content-between align-item-center"
+                        >
+                          <p>Friday</p>
+                          <p>10:00 Am - 04:00 Pm</p>
+                          <button
+                            class="book-btn"
+                            onclick="location.href='./appointment.html'"
+                          >
+                            Book Now
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFour"
+                aria-expanded="false"
+                aria-controls="collapseFour"
+              >
+                Geriatrics <strong class="ms-2"> شعبہ بزرگ </strong>
+              </button>
+            </h2>
+            <div
+              id="collapseFour"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body p-4">
+                <div class="accordion" id="accordionExampleS4">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button
+                        class="accordion-button"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseOneS13"
+                        aria-expanded="true"
+                        aria-controls="collapseOneS13"
+                      >
+                        Doctor 1
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseOneS13"
+                      class="accordion-collapse collapse"
+                      data-bs-parent="#accordionExampleS4"
+                    >
+                      <div class="accordion-body">
+                        <p><strong>Timing</strong></p>
+                        <div
+                          class="d-flex justify-content-between align-item-center"
+                        >
+                          <p>Monday</p>
+                          <p>10:00 Am - 02:00 Pm</p>
+                          <button
+                            class="book-btn"
+                            onclick="location.href='./appointment.html'"
+                          >
+                            Book Now
+                          </button>
+                        </div>
+                        <div
+                          class="d-flex justify-content-between align-item-center"
+                        >
+                          <p>Wednesday</p>
+                          <p>10:00 Am - 02:00 Pm</p>
+                          <button
+                            class="book-btn"
+                            onclick="location.href='./appointment.html'"
+                          >
+                            Book Now
+                          </button>
+                        </div>
+                        <div
+                          class="d-flex justify-content-between align-item-center"
+                        >
+                          <p>Friday</p>
+                          <p>10:00 Am - 04:00 Pm</p>
+                          <button
+                            class="book-btn"
+                            onclick="location.href='./appointment.html'"
+                          >
+                            Book Now
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwoS13"
+                        aria-expanded="false"
+                        aria-controls="collapseTwoS13"
+                      >
+                        Doctor 2
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseTwoS13"
+                      class="accordion-collapse collapse"
+                      data-bs-parent="#accordionExampleS4"
+                    >
+                      <div class="accordion-body">
+                        <p><strong>Timing</strong></p>
+                        <div
+                          class="d-flex justify-content-between align-item-center"
+                        >
+                          <p>Monday</p>
+                          <p>10:00 Am - 02:00 Pm</p>
+                          <button
+                            class="book-btn"
+                            onclick="location.href='./appointment.html'"
+                          >
+                            Book Now
+                          </button>
+                        </div>
+                        <div
+                          class="d-flex justify-content-between align-item-center"
+                        >
+                          <p>Wednesday</p>
+                          <p>10:00 Am - 02:00 Pm</p>
+                          <button
+                            class="book-btn"
+                            onclick="location.href='./appointment.html'"
+                          >
+                            Book Now
+                          </button>
+                        </div>
+                        <div
+                          class="d-flex justify-content-between align-item-center"
+                        >
+                          <p>Friday</p>
+                          <p>10:00 Am - 04:00 Pm</p>
+                          <button
+                            class="book-btn"
+                            onclick="location.href='./appointment.html'"
+                          >
+                            Book Now
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseThreeS13"
+                        aria-expanded="false"
+                        aria-controls="collapseThreeS13"
+                      >
+                        Doctor 3
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseThreeS13"
+                      class="accordion-collapse collapse"
+                      data-bs-parent="#accordionExampleS4"
+                    >
+                      <div class="accordion-body">
+                        <p><strong>Timing</strong></p>
+                        <div
+                          class="d-flex justify-content-between align-item-center"
+                        >
+                          <p>Monday</p>
+                          <p>10:00 Am - 02:00 Pm</p>
+                          <button
+                            class="book-btn"
+                            onclick="location.href='./appointment.html'"
+                          >
+                            Book Now
+                          </button>
+                        </div>
+                        <div
+                          class="d-flex justify-content-between align-item-center"
+                        >
+                          <p>Wednesday</p>
+                          <p>10:00 Am - 02:00 Pm</p>
+                          <button
+                            class="book-btn"
+                            onclick="location.href='./appointment.html'"
+                          >
+                            Book Now
+                          </button>
+                        </div>
+                        <div
+                          class="d-flex justify-content-between align-item-center"
+                        >
+                          <p>Friday</p>
+                          <p>10:00 Am - 04:00 Pm</p>
+                          <button
+                            class="book-btn"
+                            onclick="location.href='./appointment.html'"
+                          >
+                            Book Now
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseFourS13"
+                        aria-expanded="false"
+                        aria-controls="collapseFourS13"
+                      >
+                        Doctor 4
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseFourS13"
+                      class="accordion-collapse collapse"
+                      data-bs-parent="#accordionExampleS4"
+                    >
+                      <div class="accordion-body">
+                        <p><strong>Timing</strong></p>
+                        <div
+                          class="d-flex justify-content-between align-item-center"
+                        >
+                          <p>Monday</p>
+                          <p>10:00 Am - 02:00 Pm</p>
+                          <button
+                            class="book-btn"
+                            onclick="location.href='./appointment.html'"
+                          >
+                            Book Now
+                          </button>
+                        </div>
+                        <div
+                          class="d-flex justify-content-between align-item-center"
+                        >
+                          <p>Wednesday</p>
+                          <p>10:00 Am - 02:00 Pm</p>
+                          <button
+                            class="book-btn"
+                            onclick="location.href='./appointment.html'"
+                          >
+                            Book Now
+                          </button>
+                        </div>
+                        <div
+                          class="d-flex justify-content-between align-item-center"
+                        >
+                          <p>Friday</p>
+                          <p>10:00 Am - 04:00 Pm</p>
+                          <button
+                            class="book-btn"
+                            onclick="location.href='./appointment.html'"
+                          >
+                            Book Now
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFive"
+                aria-expanded="false"
+                aria-controls="collapseFive"
+              >
+                General Surgery <strong class="ms-2">جنرل سرجری کا شعبہ</strong>
+              </button>
+            </h2>
+            <div
+              id="collapseFive"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body p-4">
+                <div class="accordion" id="accordionExampleS5">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button
+                        class="accordion-button"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseOneS14"
+                        aria-expanded="true"
+                        aria-controls="collapseOneS14"
+                      >
+                        Doctor 1
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseOneS14"
+                      class="accordion-collapse collapse"
+                      data-bs-parent="#accordionExampleS5"
+                    >
+                      <div class="accordion-body">
+                        <p><strong>Timing</strong></p>
+                        <div
+                          class="d-flex justify-content-between align-item-center"
+                        >
+                          <p>Monday</p>
+                          <p>10:00 Am - 02:00 Pm</p>
+                          <button
+                            class="book-btn"
+                            onclick="location.href='./appointment.html'"
+                          >
+                            Book Now
+                          </button>
+                        </div>
+                        <div
+                          class="d-flex justify-content-between align-item-center"
+                        >
+                          <p>Wednesday</p>
+                          <p>10:00 Am - 02:00 Pm</p>
+                          <button
+                            class="book-btn"
+                            onclick="location.href='./appointment.html'"
+                          >
+                            Book Now
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwoS14"
+                        aria-expanded="false"
+                        aria-controls="collapseTwoS14"
+                      >
+                        Doctor 2
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseTwoS14"
+                      class="accordion-collapse collapse"
+                      data-bs-parent="#accordionExampleS5"
+                    >
+                      <div class="accordion-body">
+                        <p><strong>Timing</strong></p>
+                        <div
+                          class="d-flex justify-content-between align-item-center"
+                        >
+                          <p>Monday</p>
+                          <p>10:00 Am - 02:00 Pm</p>
+                          <button
+                            class="book-btn"
+                            onclick="location.href='./appointment.html'"
+                          >
+                            Book Now
+                          </button>
+                        </div>
+                        <div
+                          class="d-flex justify-content-between align-item-center"
+                        >
+                          <p>Wednesday</p>
+                          <p>10:00 Am - 02:00 Pm</p>
+                          <button
+                            class="book-btn"
+                            onclick="location.href='./appointment.html'"
+                          >
+                            Book Now
+                          </button>
+                        </div>
+                        <div
+                          class="d-flex justify-content-between align-item-center"
+                        >
+                          <p>Friday</p>
+                          <p>10:00 Am - 04:00 Pm</p>
+                          <button
+                            class="book-btn"
+                            onclick="location.href='./appointment.html'"
+                          >
+                            Book Now
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseThreeS14"
+                        aria-expanded="false"
+                        aria-controls="collapseThreeS14"
+                      >
+                        Doctor 3
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseThreeS14"
+                      class="accordion-collapse collapse"
+                      data-bs-parent="#accordionExampleS5"
+                    >
+                      <div class="accordion-body">
+                        <p><strong>Timing</strong></p>
+                        <div
+                          class="d-flex justify-content-between align-item-center"
+                        >
+                          <p>Saturday</p>
+                          <p>10:00 Am - 04:00 Pm</p>
+                          <button
+                            class="book-btn"
+                            onclick="location.href='./appointment.html'"
+                          >
+                            Book Now
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseFourS14"
+                        aria-expanded="false"
+                        aria-controls="collapseFourS14"
+                      >
+                        Doctor 4
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseFourS14"
+                      class="accordion-collapse collapse"
+                      data-bs-parent="#accordionExampleS5"
+                    >
+                      <div class="accordion-body">
+                        <p><strong>Timing</strong></p>
+                        <div
+                          class="d-flex justify-content-between align-item-center"
+                        >
+                          <p>Tuesday</p>
+                          <p>05:00 Pm - 09:00 Pm</p>
+                          <button
+                            class="book-btn"
+                            onclick="location.href='./appointment.html'"
+                          >
+                            Book Now
+                          </button>
+                        </div>
+                        <div
+                          class="d-flex justify-content-between align-item-center"
+                        >
+                          <p>Wednesday</p>
+                          <p>05:00 Pm - 09:00 Pm</p>
+                          <button
+                            class="book-btn"
+                            onclick="location.href='./appointment.html'"
+                          >
+                            Book Now
+                          </button>
+                        </div>
+                        <div
+                          class="d-flex justify-content-between align-item-center"
+                        >
+                          <p>Thursday</p>
+                          <p>05:00 Pm - 09:00 Pm</p>
+                          <button
+                            class="book-btn"
+                            onclick="location.href='./appointment.html'"
+                          >
+                            Book Now
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="grid-container">
+      <div class="box">
+        <label for="cardiology">Cardiology</label>
+        <select id="cardiology">
+          <option value="">Doctors Available</option>
+          <option value="dr_smith">Dr. Smith</option>
+          <option value="dr_johnson">Dr. Johnson</option>
+          <option value="dr_brown">Dr. Brown</option>
+        </select>
+        <button class="appointment-button">Take Appointment</button>
+      </div>
+      <div class="box">
+        <label for="dermatology">Dermatology</label>
+        <select id="dermatology">
+          <option value="">Doctors Available</option>
+          <option value="dr_white">Dr. White</option>
+          <option value="dr_green">Dr. Green</option>
+          <option value="dr_black">Dr. Black</option>
+        </select>
+        <button class="appointment-button">Take Appointment</button>
+      </div>
+      <div class="box">
+        <label for="emergency_medicine">Emergency Medicine</label>
+        <select id="emergency_medicine">
+          <option value="">Doctors Available</option>
+          <option value="dr_miller">Dr. Miller</option>
+          <option value="dr_davis">Dr. Davis</option>
+          <option value="dr_wilson">Dr. Wilson</option>
+        </select>
+        <button class="appointment-button">Take Appointment</button>
+      </div>
+      <div class="box">
+        <label for="endocrinology">Endocrinology</label>
+        <select id="endocrinology">
+          <option value="">Doctors Available</option>
+          <option value="dr_moore">Dr. Moore</option>
+          <option value="dr_taylor">Dr. Taylor</option>
+          <option value="dr_anderson">Dr. Anderson</option>
+        </select>
+        <button class="appointment-button">Take Appointment</button>
+      </div>
+      <div class="box">
+        <label for="family_medicine">Family Medicine</label>
+        <select id="family_medicine">
+          <option value="">Doctors Available</option>
+          <option value="dr_jones">Dr. Jones</option>
+          <option value="dr_martinez">Dr. Martinez</option>
+          <option value="dr_garcia">Dr. Garcia</option>
+        </select>
+        <button class="appointment-button">Take Appointment</button>
+      </div>
+      <div class="box">
+        <label for="gastroenterology">Gastroenterology</label>
+        <select id="gastroenterology">
+          <option value="">Doctors Available</option>
+          <option value="dr_clark">Dr. Clark</option>
+          <option value="dr_lewis">Dr. Lewis</option>
+          <option value="dr_robinson">Dr. Robinson</option>
+        </select>
+        <button class="appointment-button">Take Appointment</button>
+      </div>
+      <div class="box">
+        <label for="general_surgery">General Surgery</label>
+        <select id="general_surgery">
+          <option value="">Doctors Available</option>
+          <option value="dr_hall">Dr. Hall</option>
+          <option value="dr_allen">Dr. Allen</option>
+          <option value="dr_young">Dr. Young</option>
+        </select>
+        <button class="appointment-button">Take Appointment</button>
+      </div>
+      <div class="box">
+        <label for="geriatrics">Geriatrics</label>
+        <select id="geriatrics">
+          <option value="">Doctors Available</option>
+          <option value="dr_sanchez">Dr. Sanchez</option>
+          <option value="dr_wright">Dr. Wright</option>
+          <option value="dr_scott">Dr. Scott</option>
+        </select>
+        <button class="appointment-button">Take Appointment</button>
+      </div>
+      <div class="box">
+        <label for="hematology">Hematology</label>
+        <select id="hematology">
+          <option value="">Doctors Available</option>
+          <option value="dr_king">Dr. King</option>
+          <option value="dr_greenwood">Dr. Greenwood</option>
+          <option value="dr_hill">Dr. Hill</option>
+        </select>
+        <button class="appointment-button">Take Appointment</button>
+      </div>
+      <div class="box">
+        <label for="infectious_diseases">Infectious Diseases</label>
+        <select id="infectious_diseases">
+          <option value="">Doctors Available</option>
+          <option value="dr_adams">Dr. Adams</option>
+          <option value="dr_baker">Dr. Baker</option>
+          <option value="dr_gonzalez">Dr. Gonzalez</option>
+        </select>
+        <button class="appointment-button">Take Appointment</button>
+      </div>
+      <div class="box">
+        <label for="internal_medicine">Internal Medicine</label>
+        <select id="internal_medicine">
+          <option value="">Doctors Available</option>
+          <option value="dr_turner">Dr. Turner</option>
+          <option value="dr_hughes">Dr. Hughes</option>
+          <option value="dr_foster">Dr. Foster</option>
+        </select>
+        <button class="appointment-button">Take Appointment</button>
+      </div>
+      <div class="box">
+        <label for="nephrology">Nephrology</label>
+        <select id="nephrology">
+          <option value="">Doctors Available</option>
+          <option value="dr_cooper">Dr. Cooper</option>
+          <option value="dr_bell">Dr. Bell</option>
+          <option value="dr_sanders">Dr. Sanders</option>
+        </select>
+        <button class="appointment-button">Take Appointment</button>
+      </div>
+      <div class="box">
+        <label for="neurology">Neurology</label>
+        <select id="neurology">
+          <option value="">Doctors Available</option>
+          <option value="dr_rivera">Dr. Rivera</option>
+          <option value="dr_wood">Dr. Wood</option>
+          <option value="dr_cox">Dr. Cox</option>
+        </select>
+        <button class="appointment-button">Take Appointment</button>
+      </div>
+      <div class="box">
+        <label for="obstetrics_gynecology">Obstetrics/Gynecology</label>
+        <select id="obstetrics_gynecology">
+          <option value="">Doctors Available</option>
+          <option value="dr_reed">Dr. Reed</option>
+          <option value="dr_stevens">Dr. Stevens</option>
+          <option value="dr_morris">Dr. Morris</option>
+        </select>
+        <button class="appointment-button">Take Appointment</button>
+      </div>
+      <div class="box">
+        <label for="oncology">Oncology</label>
+        <select id="oncology">
+          <option value="">Doctors Available</option>
+          <option value="dr_cook">Dr. Cook</option>
+          <option value="dr_harris">Dr. Harris</option>
+          <option value="dr_rogers">Dr. Rogers</option>
+        </select>
+        <button class="appointment-button">Take Appointment</button>
+      </div>
+      <div class="box">
+        <label for="ophthalmology">Ophthalmology</label>
+        <select id="ophthalmology">
+          <option value="">Doctors Available</option>
+          <option value="dr_bailey">Dr. Bailey</option>
+          <option value="dr_bishop">Dr. Bishop</option>
+          <option value="dr_bryant">Dr. Bryant</option>
+        </select>
+        <button class="appointment-button">Take Appointment</button>
+      </div>
+      <div class="box">
+        <label for="orthopedics">Orthopedics</label>
+        <select id="orthopedics">
+          <option value="">Doctors Available</option>
+          <option value="dr_holmes">Dr. Holmes</option>
+          <option value="dr_sanders">Dr. Sanders</option>
+          <option value="dr_fowler">Dr. Fowler</option>
+        </select>
+        <button class="appointment-button">Take Appointment</button>
+      </div>
+      <div class="box">
+        <label for="otorhinolaryngology">Otorhinolaryngology</label>
+        <select id="otorhinolaryngology">
+          <option value="">Doctors Available</option>
+          <option value="dr_bryant">Dr. Bryant</option>
+          <option value="dr_martin">Dr. Martin</option>
+          <option value="dr_gonzalez">Dr. Gonzalez</option>
+        </select>
+        <button class="appointment-button">Take Appointment</button>
+      </div>
+      <div class="box">
+        <label for="pathology">Pathology</label>
+        <select id="pathology">
+          <option value="">Doctors Available</option>
+          <option value="dr_watson">Dr. Watson</option>
+          <option value="dr_kelley">Dr. Kelley</option>
+          <option value="dr_ferguson">Dr. Ferguson</option>
+        </select>
+        <button class="appointment-button">Take Appointment</button>
+      </div>
+      <div class="box">
+        <label for="pediatrics">Pediatrics</label>
+        <select id="pediatrics">
+          <option value="">Doctors Available</option>
+          <option value="dr_burke">Dr. Burke</option>
+          <option value="dr_tucker">Dr. Tucker</option>
+          <option value="dr_jeremiah">Dr. Jeremiah</option>
+        </select>
+        <button class="appointment-button">Take Appointment</button>
+      </div>
+      <div class="box">
+        <label for="physical_medicine">Physical Medicine</label>
+        <select id="physical_medicine">
+          <option value="">Doctors Available</option>
+          <option value="dr_ross">Dr. Ross</option>
+          <option value="dr_james">Dr. James</option>
+          <option value="dr_perez">Dr. Perez</option>
+        </select>
+        <button class="appointment-button">Take Appointment</button>
+      </div>
+      <div class="box">
+        <label for="psychiatry">Psychiatry</label>
+        <select id="psychiatry">
+          <option value="">Doctors Available</option>
+          <option value="dr_bennett">Dr. Bennett</option>
+          <option value="dr_daniels">Dr. Daniels</option>
+          <option value="dr_hughes">Dr. Hughes</option>
+        </select>
+        <button class="appointment-button">Take Appointment</button>
+      </div>
+      <div class="box">
+        <label for="pulmonary">Pulmonary</label>
+        <select id="pulmonary">
+          <option value="">Doctors Available</option>
+          <option value="dr_bishop">Dr. Bishop</option>
+          <option value="dr_stevens">Dr. Stevens</option>
+          <option value="dr_torres">Dr. Torres</option>
+        </select>
+        <button class="appointment-button">Take Appointment</button>
+      </div>
+      <div class="box">
+        <label for="radiology">Radiology</label>
+        <select id="radiology">
+          <option value="">Doctors Available</option>
+          <option value="dr_rivera">Dr. Rivera</option>
+          <option value="dr_wade">Dr. Wade</option>
+          <option value="dr_hawkins">Dr. Hawkins</option>
+        </select>
+        <button class="appointment-button">Take Appointment</button>
+      </div>
+      <div class="box">
+        <label for="rheumatology">Rheumatology</label>
+        <select id="rheumatology">
+          <option value="">Doctors Available</option>
+          <option value="dr_dunn">Dr. Dunn</option>
+          <option value="dr_james">Dr. James</option>
+          <option value="dr_morrison">Dr. Morrison</option>
+        </select>
+        <button class="appointment-button">Take Appointment</button>
+      </div>
+      <div class="box">
+        <label for="urology">Urology</label>
+        <select id="urology">
+          <option value="">Doctors Available</option>
+          <option value="dr_murray">Dr. Murray</option>
+          <option value="dr_love">Dr. Love</option>
+          <option value="dr_dixon">Dr. Dixon</option>
+        </select>
+        <button class="appointment-button">Take Appointment</button>
+      </div>
+    </div> -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

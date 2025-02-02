@@ -1,0 +1,157 @@
+body {
+  background-color: black !important;
+  background-image: url("./pic1LB.jpg");
+  background-size: cover;
+}
+
+.fpage-data {
+  width: 100%;
+}
+
+.sign-in-form {
+  max-width: 500px;
+  width: 100%;
+  padding: 3rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background-color: #fffcfcad;
+  border: none;
+  box-sizing: border-box;
+}
+.input {
+  background-color: #fbfbfb5e !important;
+  border: none !important;
+}
+.card {
+  max-width: 500px;
+  width: 100%;
+  padding: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background-color: #fffcfcad !important;
+  border: none;
+  box-sizing: border-box;
+}
+.card-body {
+  margin-top: 5rem;
+}
+.card-title {
+  font-size: 30px;
+  font-weight: bold !important;
+  color: white !important;
+  display: block;
+  text-align: center;
+  border-bottom: 2px solid white;
+  padding-bottom: 10px;
+}
+.card-text {
+  margin: 4rem 0rem 0rem 0rem;
+  padding: 0 16px;
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 1.5;
+  text-align: center;
+  color: white;
+}
+.token-btn {
+  cursor: pointer;
+  margin-top: 1rem;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #2ec3de;
+  text-decoration: none;
+  border-radius: 4px;
+  text-align: center;
+  border: 1px solid transparent;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.token-btn:hover,
+.token-btn:focus {
+  background-color: #0056b3;
+  border-color: #0056b3;
+  outline: none;
+}
+
+.token-btn:active {
+  background-color: #004085;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 15px;
+}
+.g-icon {
+  color: red;
+}
+.gt-icon {
+  color: black;
+}
+.loginButton1:hover {
+  background-color: blue !important;
+  color: white !important;
+}
+.loginButton2:hover {
+  background-color: red !important;
+  & .g-icon {
+    color: white;
+  }
+}
+.loginButton3:hover {
+  background-color: black !important;
+  & .gt-icon {
+    color: white;
+  }
+}
+.register-btn:hover {
+  background-color: rgba(41, 151, 167, 0.5);
+}
+#token {
+  background-color: #2ec3de;
+  padding: 0px 20px;
+  font-size: 100px;
+  border-radius: 50px;
+}
+button[type="submit"] > a {
+  text-decoration: none;
+}
+.apoint-detail {
+  padding: 50px;
+  background-color: #fffcfcad;
+}
+.head-detail {
+  color: white;
+  background-color: #4fdce3;
+  font-size: 30px;
+  padding: 5px 10px;
+  font-weight: bolder;
+}
+.g_id_signin {
+  width: 45px;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.658);
+  position: absolute;
+  width: 100%;
+  height: 210vh;
+  top: 0;
+  left: 0;
+  z-index: 990;
+}
+.popup {
+  background-color: white;
+  padding: 2% 5%;
+  position: absolute;
+  width: 35%;
+  top: 80vh;
+  left: 35%;
+  border-radius: 10px;
+  z-index: 991;
+  box-shadow: 10px 10px 20px grey;
+}
+#pop {
+  display: none;
+}
